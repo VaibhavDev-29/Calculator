@@ -61,8 +61,9 @@ button{
     color: azure;
 }
 
-.footbox{
+#footbox{
     text-align: center;
+    font-size: larger;
     color: azure;
 }
 

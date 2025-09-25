@@ -57,5 +57,8 @@ function backSpace() {
 
 updateDisplay(0);
 
-const exp = "2+3-5*4*3/2";
-// console.log(eval(exp));
+const now = new Date()
+const currentYear = now.getFullYear();
+
+
+document.getElementById("footbox").innerText = `© ${currentYear} All Right Reserved !`
