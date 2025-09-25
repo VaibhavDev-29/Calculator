@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="mainheading">Calculator</div>
+    </header>
+
+    <main>
+      <div class="containerofcal">
+        <table class="elementcont">
+          <tr class="row1">
+            <td colspan="4" class="outputbox">
+              <p id="outputbox"></p>
+            </td>
+          </tr>
+
+          <tr class="row2">
+            <td><button class="firstrow" onclick="clearDisplay()">Ac</button></td>
+            <td><button class="firstrow" onclick=backSpace()>⌫</button></td>
+            <td><button class="firstrow" onclick="setOperator('%')">%</button></td>
+            <td><button class="rightcol" onclick="setOperator('/')">/</button></td>
+          </tr>
+          <tr class="row3">
+            <td><button class="number" onclick=enterNumber(7)>7</button></td>
+            <td><button class="number" onclick=enterNumber(8)>8</button></td>
+            <td><button class="number" onclick=enterNumber(9)>9</button></td>
+            <td><button class="rightcol" onclick="setOperator('*')">*</button></td>
+          </tr>
+          <tr class="row4">
+            <td><button class="number" onclick=enterNumber(4)>4</button></td>
+            <td><button class="number" onclick=enterNumber(5)>5</button></td>
+            <td><button class="number" onclick=enterNumber(6)>6</button></td>
+            <td><button class="rightcol" onclick="setOperator('-')">-</button></td>
+          </tr>
+          <tr class="row5">
+            <td><button class="number" onclick=enterNumber(1)>1</button></td>
+            <td><button class="number" onclick=enterNumber(2)>2</button></td>
+            <td><button class="number" onclick=enterNumber(3)>3</button></td>
+            <td><button class="rightcol" onclick="setOperator('+')">+</button></td>
+          </tr>
+          <tr class="rows6">
+            <td><button class="number" onclick="setOperator('.')">.</button></td>
+            <td><button class="number" onclick=enterNumber(0)>0</button></td>
+            <!-- <td><button class="number" onclick="toggleSign()" >+/-</button></td> -->
+            <td colspan="2"><button class="equal" id="solution" onclick=calulate()>=</button></td>
+          </tr>
+        </table>
+      </div>
+    </main>
+
+    <footer class="footbox">footer element</footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
+
+

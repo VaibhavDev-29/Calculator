@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #111111;
+}
+
+td{
+    padding: 0%;
+}
+
+button{
+    
+    height: 100%;
+    width: 100%;
+    color: azure;
+    
+}
+
+.number{
+    font-size: large;
+    font-weight: bold;
+    background: #000;
+}
+.firstrow{
+    font-size: large;
+    font-weight: bold;
+    color: #000;
+}
+
+.mainheading{
+    text-align: center;
+    margin-top: 20px ;
+    margin-bottom: 10px;
+    color: azure;
+    font-family: sans-serif;
+    font-size: 40px;
+
+}
+
+.containerofcal{
+
+    background: #0c0c0c;
+    border: 1px solid rgb(249, 246, 246);
+    width: 350px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom: 20px;
+
+}
+
+.equal{
+    background: #808080;
+    font-size: larger;
+    font-weight: bold;
+    color: azure;
+}
+
+.footbox{
+    text-align: center;
+    color: azure;
+}
+
+
+.elementcont{
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+}
+
+
+.outputbox{
+    box-sizing: border-box;
+    text-align: end;
+    padding-right: 10px;
+    font-size: 40px;
+    height: 100px ;
+    padding-top: 20px;
+
+
+    overflow-x: auto;      /* horizontal scroll enable */
+    overflow-y: hidden;    /* vertical scroll disable */
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+
+.outputbox p {
+    margin: 0;
+    display: inline-block; /* so that scroll works properly */
+    width: 300px;       /* ensure initial width fills container */
+}
+
+td{
+    color: azure;
+    border: 1px solid white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 87.5px;
+    border-radius: 2px;
+    
+}
+
+
+
+.rightcol{
+    background: rgb(190, 104, 4);
+    font-size: larger;
+    font-weight: bold;
+    
+}
